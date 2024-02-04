@@ -1,0 +1,43 @@
+.color-bcg{
+    background-color: #C8E4B2;
+}
+.navbar-nav .nav-link {
+    color: #9ED2BE;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #9ED2BE;
+  }
+  
+  .navbar-brand{
+    color:#7EAA92;
+  }
+  #letters-color{
+    font-family: 'Lobster', sans-serif;
+    font-size: 50px;
+    color: #9ED2BE;
+  }
+
+  #letters-subtitle{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+  }
+
+  footer {
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+#bg-image{
+    
+    /* background-image: url('../images/back3.jpg'); */
+    background-size: cover;
+     /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    height: 100vh; /* Establece la altura del body al 100% de la ventana */
+
+}
+
