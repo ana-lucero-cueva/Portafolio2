@@ -78,5 +78,8 @@ img, svg {
   font-size: 36px;
 }
 
+ul {
+  list-style-type: none; 
+}
 
 
