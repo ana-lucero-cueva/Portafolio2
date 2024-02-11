@@ -13,8 +13,9 @@
   color:#7EAA92;
 }
 
+
 .navbar{
-  background-color: #FFD9B7;
+  background-color: transparent;
 
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
@@ -34,16 +35,19 @@
 
 #letters-subtitle{
   font-family: 'Alegreya', serif;
-  font-size: 20px;
+  font-size: 25px;
+  color:#7EAA92;
 }
 
 footer {
-  position: relative; 
+  position:relative;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 20px;
+  
 }
+
 
 #bg-image{
   
@@ -82,4 +86,38 @@ ul {
   list-style-type: none; 
 }
 
+#contact-title{
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color:#7EAA92;
+  
+}
 
+#contact-content{
+  color: black;
+  font-size: 25px;
+  text-align:start;
+
+}
+
+#form-contact {
+  /* width: 100%;
+  max-width: 330px; */
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(233, 225, 225, 0.5) !important;
+  box-shadow: 1px 2px 2px 5px #eee !important;
+
+}
+
+#container-contact{
+  
+  padding: 15px;
+  margin: 0 auto;
+ 
+}
+#font-container{
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg");
+  background-size: cover;
+}
