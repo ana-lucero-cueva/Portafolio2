@@ -113,6 +113,12 @@ body{
   ul{
     list-style: none;
   }
+  #a-point{
+    list-style:disc !important;
+  }
+  #a-second{
+    list-style: circle !important;
+  }
   #footer-color{
     color: #4942E4 !important;
 
