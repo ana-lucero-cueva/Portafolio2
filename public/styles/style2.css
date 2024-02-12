@@ -10,6 +10,9 @@
   .about-section {
     border-bottom: 1px solid #dee2e6;
 }
+body{
+    background-color: #EEF1FF !important;
+}
   
   @media (min-width: 576px) {
     .container {
@@ -40,12 +43,12 @@
 
 #colorbtn{
     background-color: transparent;
-    color: #7EAA92; 
-    border-color: #7EAA92; 
+    color: #B1B2FF; 
+    border-color: #B1B2FF; 
 }
 
 .btn-bordered:hover {
-    background-color:#7EAA92 !important;
+    background-color:#B1B2FF !important;
     color: #fff !important;
   }
 
@@ -55,6 +58,7 @@
     justify-content: center; 
     align-items: center;
     padding: 0.8rem 1rem;
+    
 }
 
 .navbar-nav {
@@ -67,26 +71,28 @@
 }
 
 .brand-txt{
-    color: #7EAA92;
+    color: #B1B2FF ;
     font-size: 20px;
     text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    ;
 }
 
 #letters-color-1{
     font-family: 'Protest Revolution', sans-serif;
     font-size: 50px;
-    color: #9ED2BE;
+    color: #AAC4FF;
   }
   #letters-color{
     font-family: 'Protest Revolution', sans-serif;
     font-size: 100px;
-    color: #9ED2BE;
+    color: #AAC4FF;
   }
   
   #letters-subtitle{
     font-family: 'Alegreya', serif;
     font-size: 25px;
-    color:#7EAA92;
+    color:#AAC4FF;
   }
   
   footer {
@@ -97,7 +103,20 @@
     padding: 20px;
     
   }
-  
+
+  #h1{
+
+    font-family: 'Protest Riot', sans-serif;
+
+  }
+
+  ul{
+    list-style: none;
+  }
+  #footer-color{
+    color: #4942E4 !important;
+
+  }
   
   #bg-image{
     
@@ -122,20 +141,13 @@
   background-size: cover;
   }
   
-  img, svg {
-    vertical-align: middle;
-  }
-  
+
   #subtitle-color{
-    color: #9ED2BE;
+    color: #AAC4FF;
     font-family: 'Alegreya', serif;
     font-size: 36px;
   }
-  
-  ul {
-    list-style-type: none; 
-  }
-  
+
   #contact-title{
     font-family: 'Protest Riot', sans-serif;
     font-size: 60px;
@@ -167,7 +179,7 @@
     margin: 0 auto;
    
   }
-  #font-container{
+  #contact-section{
     background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg");
     background-size: cover;
   }
