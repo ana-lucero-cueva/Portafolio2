@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnaL.</title>
-    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
-    <style>
-      .navbar.fixed-top {
-        transition: top 0.3s;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="40" class="color-bcg" id="bg-image">
     <!-- Body -->
@@ -83,7 +80,7 @@
                 </div>
                 <div class="col-lg-6">
                   <h1 class="display-5 fw-bold lh-1 mb-3" id="h1">Who am I?</h1>
-                  <p class="lead">Software Engineer recently graduated with strong knowledge in software 
+                  <p class="lead" id="letter-style">Software Engineer recently graduated with strong knowledge in software 
                     development and a passion for problem-solving through technology. I hold an 
                     academic background in Software Engineering, coupled with practical skills in 
                     application development and maintenance. Highly motivated and team-oriented, 
@@ -105,7 +102,7 @@
             <!-- Resume -->
             <div class="container-fluid col-xxl-8 px-4 py-5" id="resume-section">
               <h2 class="pb-2 border-bottom" id="h1">My Resume</h2>
-              <div class="row g-4 py-5">
+              <div class="row g-4 py-5" id="letter-style">
                   <div class="col-lg-6">
                       <div class="d-flex align-items-start">
                           <div>
@@ -120,7 +117,7 @@
                                       <li>.NET MVC/WPF/WS</li>
                                       <li>.NET Framework (C#)</li>
                                       <li>Front-End technologies (HTML5, CSS3, Bootstrap, JavaScript, TypeScript, jQuery)</li>
-                                      <li>Databases (SQL Server, MySQL, Oracle)</li>
+                                      <li>Databases (SQL Server, MySQL)</li>
                                     </ul>
                                   </li>
                                   <li>Contributed to the development of the SAE System for the Autoritat de Transport Metropolità (ATM) of Barcelona.
@@ -135,44 +132,45 @@
                       </div>
                   </div>
                   <div class="col-lg-6">
-                      <div class="d-flex align-items-start">
-                          <div>
-                              <h3 class="fs-2 text-body-emphasis">Languages</h3>
-                              <ul class="list-group">
-                                <li class="list-group-item"><strong>English  </strong>Upper-Intermediate</li>
-                                <li class="list-group-item "><strong>Spanish  </strong>Native</li>
+                    <div class="d-flex align-items-start" id="letter-style">
+                      <section >
+                        <h3>Education</h3>
+                        <ul >
+                          <li id="a-point"><strong>Bachelor of Science</strong></li>
+                          <li>High School Paulo Freire | 2016 — 2018</li>
+                          <li id="a-point"><strong>PCE Selectivity</strong></li>
+                          <li>Luis Vives Academy | 2018 — 2019</li>
+                          <li id="a-point"><strong>Software Engineering Degree</strong></li>
+                          <li>The Polytechnical University of Madrid | 2019 — July 2023</li>
+                        </ul>
+                      </section>
+                      
+                    </div>
+                </div>
+                  <div class="col-lg-6 mt-3">
+                      <div class="d-flex align-items-start" id="letter-style">
+                          <div >
+                              <h3>Languages</h3>
+                              <ul class="mt-4">
+                                <li><strong>English  </strong>Upper-Intermediate</li>
+                                <li><strong>Spanish  </strong>Native</li>
                               </ul>
                           </div>
                       </div>
                   </div>
+                  
                   <div class="col-lg-6">
-                      <div class="d-flex align-items-start">
-                        <section >
-                          <h4>Education</h4>
-                          <ul>
-                            <li><strong>Bachelor of Science</strong></li>
-                            <li>High School Paulo Freire | 2016 — 2018</li>
-                            <li><strong>PCE Selectivity</strong></li>
-                            <li>Luis Vives Academy | 2018 — 2019</li>
-                            <li><strong>Software Engineering Degree</strong></li>
-                            <li>The Polytechnical University of Madrid | 2019 — July 2023</li>
-                          </ul>
-                        </section>
-                        
-                      </div>
-                  </div>
-                  <div class="col-lg-6">
-                      <div class="d-flex align-items-start">
+                      <div class="d-flex align-items-start" id="letter-style">
                           <div>
                               <h3 class="fs-2 text-body-emphasis">Technical Skills</h3>
-                              <ul class="list-group">
-                                <li class="list-group-item">Programming Languages: Java, SQL, NoSQL,Python, and C#.</li>
-                                <li class="list-group-item">Databases: MySQL Workbench, Microsoft SQL Server Management Studio, and Studio 3T.</li>
-                                <li class="list-group-item">Development Tools: Git, SourceTree, Jenkins, and Azure DevOps.</li>
-                                <li class="list-group-item">Development Methodologies: Agile and Traditional Software Development.</li>
-                                <li class="list-group-item">Backend Development: JavaScript, React, and Node.js.</li>
-                                <li class="list-group-item">Frontend Development: TypeScript, HTML5, Bootstrap, Flexbox, and CSS3.</li>
-                                <li class="list-group-item">Development Environments: Visual Studio Professional, Postman, and Visual Studio Code.</li>                     
+                              <ul>
+                                <li id="a-point">Programming Languages: Java, SQL, NoSQL,Python, and C#.</li>
+                                <li id="a-point">Databases: MySQL Workbench, Microsoft SQL Server Management Studio, and Studio 3T.</li>
+                                <li id="a-point">Development Tools: Git, SourceTree, Jenkins, and Azure DevOps.</li>
+                                <li id="a-point">Development Methodologies: Agile and Traditional Software Development.</li>
+                                <li id="a-point">Backend Development: JavaScript, React, and Node.js.</li>
+                                <li id="a-point">Frontend Development: TypeScript, HTML5, Bootstrap, Flexbox, and CSS3.</li>
+                                <li id="a-point">Development Environments: Visual Studio Professional, Postman, and Visual Studio Code.</li>                     
                               </ul>
                           </div>
                       </div>
