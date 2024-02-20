@@ -167,7 +167,7 @@ body{
   
   #contact-content{
     color: #7EAA92;
-    font-size: 25px;
+    font-size: 20px;
     text-align:start;
 
   }
@@ -193,12 +193,28 @@ body{
     margin: 0 auto;
    
   }
-  #contact-section{
-    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg");
-    background-size: cover;
-  }
-
+ 
 
   .language-list ul {
     font-size: 1.2em;
+  }
+
+  .circle {
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    border: 2px groove transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 0 20px #91C8E4, 0 0 40px #91C8E4, 0 0 60px #91C8E4;
+   
+  }
+
+  .list-inline-item {
+    margin-right: 100px !important;
+  }
+
+  .list-inline{
+    justify-content: center;
+    margin-top: 20px; 
   }
