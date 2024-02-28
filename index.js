@@ -9,7 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get("/",(req,res)=>{
-    res.render("index.ejs");
+    res.render("cover.ejs");
+})
+
+app.get("/index",(req,res)=>{
+  res.render("index.ejs");
 })
 
 app.get("/about",(req,res)=>{

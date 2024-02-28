@@ -1,6 +1,4 @@
 
-@import "https://fonts.googleapis.com/css2?family=Megrim&display=swap";
-
 
 .container {
     width: 100%;
@@ -13,17 +11,9 @@
     border-bottom: 1px solid #dee2e6;
 }
 body{
-  overflow: hidden;
-  margin:0;
+    background-color: #EEF1FF !important;
 }
-#title{
-  font-family:Megrim, cursive;
-  font-size: 20vh;
-  position: absolute;
-  margin: 10;
-  color: #fc0;
-  -webkit-text-stroke: 0.15vh #c0f;
-}
+  
   @media (min-width: 576px) {
     .container {
       max-width: 540px;

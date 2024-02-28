@@ -1,0 +1,18 @@
+
+body{
+    overflow: hidden;
+    margin:0;
+  }
+  
+  #title{
+    font-family:Megrim, cursive;
+    position: absolute;
+    top: 10%;
+    margin: 10;
+    color: #fc0;
+    -webkit-text-stroke: 0.15vh #c0f;
+  }
+  
+  #principal{
+    font-size: 100px;
+  }
