@@ -78,23 +78,20 @@ body{
     ;
 }
 
-#letters-color-1{
-    font-family: 'Protest Revolution', sans-serif;
-    font-size: 50px;
-    color: #AAC4FF;
-  }
+
   #letters-color{
-    font-family: 'Protest Revolution', sans-serif;
+    font-family:Megrim, cursive;
     font-size: 115px;
     color: white;
   }
   
-  #letters-subtitle{
-    font-family: 'Alegreya', serif;
-    font-size: 25px;
-    color:#AAC4FF;
+  #subtitle-color{
+    color: white;
+    font-family:Megrim, cursive;
+    font-size: 36px;
   }
-  
+
+
   footer {
     position:relative;
     bottom: 0;
@@ -146,16 +143,10 @@ body{
   }
   
   .cover-container {
-  background-image: url('../images/back3.jpg'); 
+  background-image: url("https://images.unsplash.com/photo-1617896376265-28bcb35febf7?q=80&amp"); 
   background-size: cover;
   }
   
-
-  #subtitle-color{
-    color: white;
-    font-family: 'Alegreya', serif;
-    font-size: 36px;
-  }
 
   #contact-title{
     font-family: 'Protest Riot', sans-serif;
