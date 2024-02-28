@@ -34,7 +34,7 @@
   
 
     <!-- Navegation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" data-spy="affix" data-offset-top="510" id="navbar">
       <div class="container">
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -430,21 +430,20 @@
                     </ul>
                   </p>
                 </div>
-                <div class="col-md-10 mx-auto col-lg-5" id="form-contact">
-                  <form class="p-4 p-md-5 border rounded-3 bg-light">
-                    <div class="mb-3">
-                      <label for="floatingInput" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="floatingInput" placeholder="Ana Lucero" required>
-                      
+                <div class="col-md-10 mx-auto col-lg-5 contactContainer" id="form-contact">
+                  <form class="p-4 p-md-5 ">
+                    <div class="mb-3 ">
+                      <label  class="mr-2" id ="letter-contact">Name</label>
+                      <input type="text" class=" contactForm"  placeholder="Ana Lucero" required> 
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    <div class="mb-3 ">
+                      <label  class="mr-2" id ="letter-contact">Email address</label>
+                      <input type="email" class=" contactForm"  placeholder="name@example.com" required>
                     </div>
                     
-                    <div class="form-group mb-3">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class=" mb-3 ">
+                      <label  class="mr-2" id ="letter-contact">Message</label>
+                      <textarea class="contactForm" rows="3"></textarea>
                     </div>
                   <div class="form-group mb-3">
                     <button class="w-100 btn btn-lg btn-bordered" id="colorbtn" type="submit">
