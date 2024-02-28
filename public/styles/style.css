@@ -1,4 +1,6 @@
 
+@import "https://fonts.googleapis.com/css2?family=Megrim&display=swap";
+
 
 .container {
     width: 100%;
@@ -11,9 +13,17 @@
     border-bottom: 1px solid #dee2e6;
 }
 body{
-    background-color: #EEF1FF !important;
+  overflow: hidden;
+  margin:0;
 }
-  
+#title{
+  font-family:Megrim, cursive;
+  font-size: 20vh;
+  position: absolute;
+  margin: 10;
+  color: #fc0;
+  -webkit-text-stroke: 0.15vh #c0f;
+}
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
@@ -218,3 +228,21 @@ body{
     justify-content: center;
     margin-top: 20px; 
   }
+
+
+  .container-fluid {
+    min-height: calc(100vh - 100px); 
+}
+
+.descripcion {
+  position: absolute;
+  background-color: rgba(114, 162, 206, 0.7);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+a:hover .descripcion {
+  display: block;
+}
