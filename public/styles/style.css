@@ -135,6 +135,7 @@ body{
   #letter-style{
     font-family: "Arvo", serif;
     font-size: 18px;
+    color:white;
 
   }
   
@@ -214,7 +215,7 @@ body{
     background-size: cover;
     border: 2px groove transparent;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: white;
     box-shadow: 0 0 20px #91C8E4, 0 0 40px #91C8E4, 0 0 60px #91C8E4;
    
   }
