@@ -9,6 +9,7 @@
   }
   .about-section {
     border-bottom: 1px solid #dee2e6;
+    
 }
 body{
   background-image: url("https://images.unsplash.com/photo-1617896376265-28bcb35febf7?q=80&amp"); 
@@ -117,6 +118,13 @@ body{
   #a-point{
     list-style:disc !important;
   }
+
+  #bold-title{
+    font-family:Megrim, cursive;
+    font-weight: bold;
+    color: #24a0d1 
+
+  }
   #a-second{
     list-style: circle !important;
   }
@@ -136,8 +144,16 @@ body{
     font-family: "Arvo", serif;
     font-size: 18px;
     color:white;
-
+    background-image: url("https://images.unsplash.com/photo-1617896376265-28bcb35febf7?q=80&amp"); 
+    background-size: cover;
+    border-radius: 10px; 
+   
   }
+
+  #letter-style ul li {
+    margin-bottom: 10px;
+}
+
   
   .divider {
   height: 1rem;
@@ -173,7 +189,7 @@ body{
 
     padding: 15px;
     margin: 0 auto;
-    color: white;
+    color: white !important;
     font-size: 20px;
 
     
@@ -193,9 +209,10 @@ body{
   
 .contactForm {
   border-radius: 40px; 
-  background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important; 
   padding: 15px; 
+  color: white !important;
 }
   #container-contact{
     
@@ -245,4 +262,32 @@ body{
 
 a:hover .descripcion {
   display: block;
+}
+
+.custom-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.custom-subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.custom-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.custom-description {
+  margin-bottom: 1rem;
 }

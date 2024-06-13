@@ -45,7 +45,7 @@
 
 
   <!-- Navegation bar -->
-  <nav class="navbar navbar-expand-lg navbar-light" data-spy="affix" data-offset-top="510" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-light" data-spy="affix" data-offset-top="510" id="navbar" data-offset="510">
     <div class="container">
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,43 +119,65 @@
   <div class="divider"></div>
   <!-- End Divider -->
 
-  <!-- Resume -->
-  <div class="container-fluid col-xxl-8 px-4 py-5" id="resume-section">
-    <h2 class="pb-2 border-bottom" id="h1">My Resume</h2>
-    <div class="col-lg-6">
-      <div id="letter-style">
-          <h3>Education</h3>
-          <ul>
-            <li id="a-point">Software Engineering Degree</li>
-            <li>The Polytechnical University of Madrid | 2019 — July 2023</li>
-            <li id="a-point"> Master of science in Computer Science</li>
-            <li>William Jessup University | April 2024 — Present</li>
-          </ul>
+  <!-- Resume Section -->
+  <div class="container-fluid px-4 py-5" id="resume-section">
+    <h2 class="pb-3 border-bottom" id="h1">My Resume</h2>
 
+    <div class="row">
+      <!-- Education Column -->
+      <div class="col">
+        <div class="container" id="letter-style">
+          <h3 class="custom-title" id="bold-title">Education</h3>
+          <ul class="custom-list">
+            <li>
+              <h4 class="custom-subtitle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill custom-icon" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                </svg>
+                Software Engineering Degree
+              </h4>
+              <p class="custom-description">The Polytechnical University of Madrid | 2019 — July 2023</p>
+            </li>
+            <li>
+              <h4 class="custom-subtitle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill custom-icon" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                </svg>
+                Master of Science in Computer Science
+              </h4>
+              <p class="custom-description">William Jessup University | April 2024 — Present</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Experience Column -->
+      <div class="col">
+        <div class="container" id="letter-style">
+          <h3 class="custom-title" id="bold-title">Experience</h3>
+          <h4 class="custom-subtitle">Software Developer Internship</h4>
+          <p class="custom-description">GMV Innovating Solutions | February 2023 — July 2023</p>
+          <h5 class="custom-subtitle" id="bold-title">Responsibilities:</h5>
+          <ul class="custom-list">
+            <li class="custom-description">Worked with:
+              <ul class="custom-list">
+                <li>.NET MVC/WPF/WS</li>
+                <li>.NET Framework (C#)</li>
+                <li>Front-End technologies (HTML5, CSS3, Bootstrap, JavaScript, TypeScript, jQuery)</li>
+                <li>Databases (SQL Server, MySQL)</li>
+              </ul>
+            </li>
+            <li class="custom-description">Contributed to the development of the SAE System for the Autoritat de Transport Metropolità (ATM) of Barcelona. Developed specific features for both the back-office and front-office systems, responsible for managing alerts in the ATM bus fleets. Tasks included configuring the user information system and historical reporting systems.</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div id="letter-style">
-      <h3>Experience</h3>
-      <h4>Software Developer Internship</h4>
-      <p>GMV Innovating Solutions | February 2023 — July 2023</p>
-      <h5>Responsibilities:</h5>
-        <ul id="a-point">
-          <li>Worked with:
-            <ul id="a-second">
-              <li>.NET MVC/WPF/WS</li>
-              <li>.NET Framework (C#)</li>
-              <li>Front-End technologies (HTML5, CSS3, Bootstrap, JavaScript, TypeScript, jQuery)</li>
-              <li>Databases (SQL Server, MySQL)</li>
-            </ul>
-          </li>
-           <p>Contributed to the development of the SAE System for the Autoritat de Transport Metropolità (ATM) of
-              Barcelona.Developed specific features for both the back-office and front-office systems, responsible for
-              managing alerts in the ATM bus fleets. Tasks included configuring the user information system and historical reporting systems.</p>
-    </div>
-            
   </div>
-
-  <!-- End Resume  -->
+  <!-- End Resume Section -->
 
   <!-- Divider -->
   <div class="divider"></div>
@@ -399,8 +421,7 @@
         <p class="col-lg-10 fs-4">
         <ul>
           <li>
-            <p id="contact-content">Feel free to drop me a message using the form. I'll get back to you as soon as
-              possible!</p>
+            <p id="contact-content">I'd love to hear from you! Please use the form next to this message to get in touch, and I'll respond as soon as I can.</p>
           </li>
           <li>
             <a class="nav-link " aria-current="page" id="contact-content">
@@ -409,7 +430,7 @@
                 <path fill-rule="evenodd"
                   d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
               </svg>
-              +34 637-904-604
+              +1 (925) 766-1034
             </a>
           </li>
           <li>
@@ -457,33 +478,28 @@
         </p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5 contactContainer" id="form-contact">
-        <form class="p-4 p-md-5 ">
-          <div class="mb-3 ">
-            <label class="mr-2" id="letter-contact">Name</label>
-            <input type="text" class=" contactForm" placeholder="Ana Lucero" required>
+        <form class="p-4 p-md-5">
+          <div class="mb-3">
+            <label class="d-block mb-2" id="letter-contact">Name</label>
+            <input type="text" class="contactForm form-control" placeholder="Ana Lucero" required>
           </div>
-          <div class="mb-3 ">
-            <label class="mr-2" id="letter-contact">Email address</label>
-            <input type="email" class=" contactForm" placeholder="name@example.com" required>
+          <div class="mb-3">
+            <label class="d-block mb-2" id="letter-contact">Email address</label>
+            <input type="email" class="contactForm form-control" placeholder="name@example.com" required>
           </div>
-
-          <div class=" mb-3 ">
-            <label class="mr-2" id="letter-contact">Message</label>
-            <textarea class="contactForm" rows="3"></textarea>
+          <div class="mb-3">
+            <label class="d-block mb-2" id="letter-contact">Message</label>
+            <textarea class="contactForm form-control" rows="2"></textarea>
           </div>
           <div class="form-group mb-3">
             <button class="w-100 btn btn-lg btn-bordered" id="colorbtn" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send"
-                viewBox="0 0 16 16">
-                <path
-                  d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
               </svg>
-              Send Message</button>
-
+              Send Message
+            </button>
           </div>
-
           <hr class="my-4">
-
         </form>
       </div>
     </div>
@@ -534,7 +550,34 @@
         navbar.classList.remove('fixed-top');
       }
     });
+    // JavaScript para manejar el desplazamiento suave y ajustar el margen superior
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtenemos todos los enlaces de la barra de navegación
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+  // Manejamos el clic en cada enlace
+  navLinks.forEach(function(navLink) {
+    navLink.addEventListener('click', function(event) {
+      event.preventDefault(); // Evitamos el comportamiento por defecto del enlace
+      
+      const targetId = navLink.getAttribute('href'); // Obtenemos el ID de la sección destino
+      const targetSection = document.querySelector(targetId); // Seleccionamos la sección destino
+      
+      if (targetSection) {
+        const offset = 90; // Ajusta este valor según el margen superior que has establecido
+        const targetPosition = targetSection.offsetTop - offset; // Calculamos la posición de destino con el margen superior
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth' // Desplazamiento suave
+        });
+      }
+    });
+  });
+});
+
   </script>
+  
 
 </body>
 
